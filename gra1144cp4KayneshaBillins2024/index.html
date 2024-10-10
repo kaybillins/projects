@@ -18,8 +18,17 @@
 		margin:0 auto;
 		background:
 			}
+	.title{
+		text-align: center;
+		font-size: 70px;
+		color:purple; 
+	}
 	section{
 		height: 911px;
+	}
+	.video{
+		height: 768px;
+		background-image: url("../mj-musical.webp");
 	}
 	nav{
 		background-color:black;
@@ -67,13 +76,41 @@
 		height: 290px;
 		position: absolute;
 		left: 380px;
+}
+	.photo1{
+		height:300px;
+		margin-top: 300px;
+		margin-left: 30px;
+		}
+	.show{
+		text-align: center;
+		margin-left: -90px;
+		font-size: 40px;
+	}
+	.location{
+		height: 768px;
+		background-image: url("MJphoto7.jpg");
+	}
+	.oneway{
+	margin-left: 350px;
+		margin-top: -10px;
 	}
 	.way{
-	color: white;
+		text-align: center;
+		font-size: 40px;
+		margin-left: -100px;
+	}
+	.photo6{
+		height: 350px;
 	}
 	footer{
 	color: white;
-	}		
+	margin-top: -85px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	background-color: black;
+	}
 </style>
 <body>
 <wrapper>
@@ -85,9 +122,9 @@
 		  <a href="#directions"><li>Directions</li></a>
       </ul>
     </nav>
-	  <h2> Welcome to Neil Simon Theatre<br>MJ the Musical</h2>
+	  <h2 class="title"> Welcome to the<br>Neil Simon Theatre<br>MJ the Musical</h2>
   </section>
-<section id="media">
+<section class="video" id="media">
   <nav>
     <ul>
 	<a href="#home"><li>Home</li></a>
@@ -95,12 +132,15 @@
 	<a href="#directions"><li>Directions</li></a>	
     </ul>
     </nav>
-	<h2>Media</h2>
+	<h2 class="show">Media</h2>
 	<iframe class="video-one" width="560" height="315" src="https://www.youtube.com/embed/ou4pJZASv7o?si=WSKEWHfEyrCMkSZ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	<iframe class="video-three" width="560" height="315" src="https://www.youtube.com/embed/RpzQuIqUGvU?si=z0FrRB-Kf1JllD6a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	<iframe class="video-two" width="560" height="315" src="https://www.youtube.com/embed/qJk6sgZPP4c?si=7ei5Fp7F2Zx7n8CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<img class="photo1" src="MJphoto2.jpg"/>
+	<img class="photo2" src="MJphoto3.jpg"/>
+	<img class="photo3" src="MJphoto5.jpg"/>
 	 </section>
-	<section id="directions">
+	<section class="location" id="directions">
 	  <nav>
 	    <ul>
 		<a href="#home"><li>Home</li></a>
@@ -108,7 +148,7 @@
 		<a href="#directions"><li>Directions</li></a>
         </ul>
       </nav>
-	  <h2>Directions</h2>
+	  <h2 class="way">Directions</h2>
 		<iframe class="oneway" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96702.3641195716!2d-74.06693965060369!3d40.76314909687414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c25857cecf249d%3A0xaa5dbb82ce9f27cb!2s250%20W%2052nd%20St%2C%20New%20York%2C%20NY%2010019!3m2!1d40.7631606!2d-73.98454579999999!5e0!3m2!1sen!2sus!4v1728261020066!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 	<footer> 
