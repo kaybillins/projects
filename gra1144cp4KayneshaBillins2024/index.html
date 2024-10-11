@@ -16,12 +16,12 @@
 		width: 1366px;
 		display: block;
 		margin:0 auto;
-		background:
 			}
 	.title{
 		text-align: center;
 		font-size: 70px;
-		color:whitesmoke; 
+		color:whitesmoke;
+		text-shadow: 4px 4px 6px black; 
 	}
 	section{
 		height: 911px;
@@ -32,6 +32,7 @@
 	}
 	nav{
 		background-color:black;
+		
 	}
    ul{
 	margin: 0;
@@ -44,10 +45,10 @@
 	li{
 		display: inline-block;
 		color: white;
-		padding-right: 40px;
+		padding: 20px 40px;
 		}
 	li:hover{
-		background-color: blue;
+		background-color: rebeccapurple;
 	}
 	#home{
 		background-image: url("MJphoto.jpg");
@@ -78,14 +79,22 @@
 		left: 380px;
 }
 	.photo1{
-		height:300px;
+		height:280px;
 		margin-top: 300px;
 		margin-left: 30px;
 		}
+	.photo2{
+		height: 280px;
+		display: inline-block;
+	}
+	.photo3{
+		height: 280px;
+	}
 	.show{
 		text-align: center;
 		margin-left: -90px;
 		font-size: 40px;
+		text-shadow: 2px 2px 4px black;
 	}
 	.location{
 		height: 768px;
@@ -99,7 +108,15 @@
 		text-align: center;
 		font-size: 40px;
 		margin-left: -100px;
+		text-shadow: 2px 2px 4px black;
 	}
+	.address{
+	    color: white;
+		text-align: center;
+		font-family: "Anton SC", sans-serif;
+		margin-left: -100px;
+		text-shadow: 2px 2px 4px black;
+		}
 	.photo6{
 		height: 350px;
 	}
@@ -111,18 +128,22 @@
 	box-sizing: border-box;
 	background-color: black;
 	}
+	span{
+		font-size: 48px;
+		line-height: .25;
+	}
 </style>
 <body>
 <wrapper>
   <section id="home">
     <nav>
       <ul>
-		  <a href="#home"><li>Home</li></a>
-		  <a href="#media"><li>Media</li></a>
-		  <a href="#directions"><li>Directions</li></a>
+     <a href="#home"><li>Home</li></a>
+     <a href="#media"><li>Media</li></a>
+     <a href="#directions"><li>Directions</li></a>
       </ul>
     </nav>
-	  <h2 class="title"> Welcome to the<br>Neil Simon Theatre<br>presenting<br>MJ the Musical</h2>
+	  <h2 class="title"><span> Welcome to the</span><br>Neil Simon Theatre<br><span>presenting</span><br>MJ the Musical</h2>
   </section>
 <section class="video" id="media">
   <nav>
@@ -150,6 +171,7 @@
       </nav>
 	  <h2 class="way">Directions</h2>
 		<iframe class="oneway" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96702.3641195716!2d-74.06693965060369!3d40.76314909687414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c25857cecf249d%3A0xaa5dbb82ce9f27cb!2s250%20W%2052nd%20St%2C%20New%20York%2C%20NY%2010019!3m2!1d40.7631606!2d-73.98454579999999!5e0!3m2!1sen!2sus!4v1728261020066!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<p class="address">Neil Simon Theatre<br>250 W 52nd St, New York, NY 10019</p>
     </section>
 	<footer> 
 	<p>&copy;2024, Kaynesha Billins</p>
