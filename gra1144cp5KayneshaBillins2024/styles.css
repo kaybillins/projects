@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+    box-sizing: 0;
+    background-color: #FFFFFF;
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    background-color: #FFFFFF;
+}
+body wrapper main {
+}
+
+nav {
+    background-color: rgba(255,255,255,0.50);
+    color: rgba(0,0,0,1.00);
+    text-align: center;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    color: rgba(0,0,0,1.00);
+}
+ul a li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    font-family: sans-serif;
+}
+ul a li:hover {
+    text-decoration: underline;
+}
+main {
+    height: 910px;
+    background-image: url(flo-home.jpg);
+}
+footer {
+    background-color: rgba(255,255,255,0.50);
+    padding: 5px;
+    color: rgba(0,0,0,1.00);
+}
+header {
+    padding: 5px 10px;
+}
+h1 {
+    text-align: center;
+    height: auto;
+}
+wrapper main h1 {
+}
+body wrapper main {
+}
