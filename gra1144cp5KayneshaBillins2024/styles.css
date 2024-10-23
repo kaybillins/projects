@@ -3,6 +3,13 @@ body {
     box-sizing: 0;
     background-color: #FFFFFF;
 }
+ul a li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+}
 wrapper {
     width: 1366px;
     margin: auto;
@@ -22,19 +29,21 @@ ul {
     margin: 0;
     color: rgba(0,0,0,1.00);
 }
-ul a li {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #000000;
-    font-family: sans-serif;
-}
 ul a li:hover {
     text-decoration: underline;
 }
 main {
     height: 910px;
-    background-image: url(flo-home.jpg);
+    width: 1366px;
 }
+.top {
+    margin: -135px 0px 0px 0px;
+}
+
+wrapper main iframe {
+    height: 910px;
+}
+
 footer {
     background-color: rgba(255,255,255,0.50);
     padding: 5px;
@@ -46,8 +55,13 @@ header {
 h1 {
     text-align: center;
     height: auto;
-}
+	font-family: "Concert One", sans-serif;
+	font-weight: 400;
+  font-style: normal;
+	}
 wrapper main h1 {
+}
+body wrapper main {
 }
 body wrapper main {
 }
