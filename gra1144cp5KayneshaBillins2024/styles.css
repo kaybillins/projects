@@ -6,9 +6,11 @@ body {
 ul a li {
     display: inline-block;
     padding: 10px 20px;
-    color: #000000;
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 wrapper {
     width: 1366px;
@@ -20,7 +22,7 @@ body wrapper main {
 }
 
 nav {
-    background-color: rgba(255,255,255,0.50);
+    background-color:black;
     color: rgba(0,0,0,1.00);
     text-align: center;
 }
@@ -41,7 +43,7 @@ main {
 }
 
 wrapper main iframe {
-    height: 910px;
+    height: 800px;
 }
 
 footer {
@@ -55,10 +57,30 @@ header {
 h1 {
     text-align: center;
     height: auto;
-	font-family: "Concert One", sans-serif;
-	font-weight: 400;
+	font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 	}
+h2{
+ font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ text-align: center;
+}
+p{
+font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+li{
+	font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 wrapper main h1 {
 }
 body wrapper main {
