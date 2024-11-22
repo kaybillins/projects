@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Expedia Travel|Kaynesha Billins, 2024</title>
+<style>
+body {
+    background-image: url(travel-background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-color: #00A6CE;
+}
+header {
+    background-color: rgba(252,252,252,0.75);
+    height: 100px;
+}
+body wrapper {
+    width: 1200px;
+    display: block;
+    margin: auto;
+    background-color: rgba(0,0,0,0.50);
+}
+footer {
+    background-color: rgba(0,0,0,0.50);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: rgba(255,253,253,1.00);
+	margin-left: -250px;
+}
+body p {
+}
+	
+#Tabs1 ul li img {
+    width: auto;
+    height: 50px;
+    margin: 8px;
+}
+#Tabs1 ul li {
+    padding: 8px;
+    text-align: center;
+}
+#Tabs1 ul {
+}
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
+    background-color: rgba(255,255,255,1.00);
+}
+input , select{
+    padding: 20px;
+    margin: 8px 0;
+    width: 91%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.date  , select,.submit{
+    width: 45%;
+    display: inline-block;
+}
+.submit {
+    background-color: rgba(253,184,48,1.00);
+}
+img {
+}
+label {
+    display: block;
+}
+	.logo{
+    width: 300px;
+    padding-left: 750px;
+    padding-top: 20px;
+    height: auto;	
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header>
+<img src="expedia-logo.png" class="logo"/>
+</header>
+<wrapper>
+<div id="Tabs1">
+    <ul>
+      
+      <li> <a href="#tabs-1"><img src="airplane-icon.png" alt="" width="600" height="600"><br>
+      Flights</a></li>
+<li> <a href="#tabs-2"><img src="car-icon.png" alt="" width="540" height="450"><br>
+  Rental</a></li>
+<li> <a href="#tabs-3"><img src="hotel-icon.png" alt="" width="526" height="486"><br>
+  Hotels</a></li>
+<li> <a href="#tabs-4"><img src="cruise-icon.png" alt="" width="534" height="571"><br>
+  Cruises</a></li>
+<li> <a href="#tabs-5"><img src="excursion-icon.png" alt="" width="564" height="436"><br>
+  Excursions</a></li>
+    </ul>
+<div id="tabs-1"><input type="text" placeholder="Where to?">
+  <input type="date" class="date">
+  <input type="date" class="date">
+  <select name="select">
+    <option value="0">Numbers of Travelers </option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5+">5+</option>
+  </select>
+	<input type="submit" class="submit" value="Find your Flight">
+</div>
+<div id="tabs-2"><input type="text" class="date" placeholder="Pick-up Location">
+  <input type="date" class="date">
+  <section class="date">
+    <label>Pick-up Time</label>
+    <input name="pick-up time" type="time" id="pick-up time" max="12:59:00" min="1:00:00" title="pick-up time">
+  </section>
+  <section class="date">
+    <label>Drop-up Time</label>
+    <input name="drop-off time" type="time" id="drop-off time" max="12:59:00" min="1:00:00" title="drop-off time ">
+  </section>
+  <input type="submit" class="submit" value="Search for Car">
+</div>
+<div id="tabs-3"><input type="text" placeholder="Where to?">
+  <section class="date">
+    <label>Check-in Date</label>
+    <input type="date">
+  </section>
+  <section class="date">
+    <label>Check-out Date</label>
+    <input type="date">
+   </section>
+	<label>Travelers</label>
+	  <input type="text">
+	    </div>
+<div id="tabs-4"><input type="text" placeholder="Going to?">
+  <section class="date">
+    <label>Departure Between</label>
+    <input type="date">
+  </section>
+	<section class="date"> 
+	<input type="date">
+	</section>
+	<label>Duration</label>
+	<select name="select2">
+	  <option selected="selected">3-5 nights</option>
+	  <option>6-8 nights</option>
+	  <option>9+ nights</option>
+	<input type="search">
+	  </select>
+	<input type="submit" class="submit" value="Search Cruises">
+</div>
+<div id="tabs-5"><input type="text" placeholder="Going to?">
+	<input type="date">
+	<input type="submit" class="submit" value="Search Excursions">
+</div>
+</wrapper>
+<footer>
+<p>&copy;2024, Kaynesha Billins</p>
+<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
